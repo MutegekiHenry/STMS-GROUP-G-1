@@ -1,0 +1,157 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.div_title{
+    background-color: #333;
+    height: 100px;
+    padding-left: 500px;
+    padding-top: 10px;
+}
+.banner{
+    position: absolute;
+    top:200px;
+    background-color: #333;
+    width: 700px;
+    height: 400px;
+    border-radius: 10px;
+    left: 300px;
+
+}
+.login_div{
+    position: absolute;
+    top:150px;
+    width: 500px;
+    height: 400px;
+    border-radius: 10px;
+    left: 450px;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px 8px #888888;
+
+}
+.application_form{
+    position: absolute;
+    top:150px;
+    width: 1300px;
+    height: 400px;
+    border-radius: 10px;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px 8px #888888;
+}
+.login_div2{
+    position: absolute;
+    top:150px;
+    width: 700px;
+    height: 400px;
+    border-radius: 10px;
+    left: 300px;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px 8px #888888;
+
+}
+.check_course{
+    position: absolute;
+    top:200px;
+    width: 700px;
+    height: 400px;
+    border-radius: 10px;
+    left: 300px;
+
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button2 {background-color: #008CBA;} /* Blue */
+
+.button5 {background-color: #555555;} /* Black */
+
+.button5 {background-color: #555555;} /* Black */
+
+.handle_buttons{
+
+    padding-left: 200px;
+}
+/*forms */
+input[type=text],select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=email]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.login_form {
+    border-radius: 5px;
+    background-color: #333;
+    padding: 20px;
+}
+
+/*collapseable */
